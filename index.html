@@ -82,6 +82,39 @@ a {
 }
 
 A.twitter {color:#1da1f2;}
+    
+.autotype {
+      position: relative;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 18px;
+      color: white;
+      font-family: 'biko';
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+      position: relative;
+      top: 15px;
+}
+
+.anim-typewriter {
+      animation: typewriter 3s steps(40) 0.5s 1 normal both,
+      blink-caret .90s step-end infinite;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 21.5em;
+      }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
 
 </style>
 
@@ -89,6 +122,8 @@ A.twitter {color:#1da1f2;}
 <p class="second_title">Collection Of CTF Sites | By 0xatom</p>
 <p class="third_title">CTF Sites project contains <u><i>ONLY</i></u> permanent CTFs.<br>If you want to submit a CTF site contant me through <font color="#7289da">discord (0xatom#8707)</font> or through my <a href="https://twitter.com/0xatom" target="_blank" class="twitter">twitter</a> account.</p>
 
+<p class="autotype anim-typewriter">Share it so more people will learn about it! (~˘▾˘)~</p>
+    
 <br>
 
 <p class="hot"><i class="fab fa-hotjar"></i> Recommended CTF Sites <i class="fab fa-hotjar"></i></p>
