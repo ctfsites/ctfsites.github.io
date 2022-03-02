@@ -1,0 +1,134 @@
+@font-face {
+src: url(fonts/mont.otf);
+font-family: mont;
+}
+
+@font-face {
+src: url(fonts/DejaVuSans-Bold.ttf);
+font-family: dejavu;
+}
+
+@font-face {
+src: url(fonts/roboto.ttf);
+font-family: roboto;
+}
+
+body {
+background-color: #0b0b0b;
+}
+
+a {
+text-decoration:none;
+color: #ffffff;
+font-weight: bold;
+}
+
+.title {
+text-align: center;
+font-size: 70px;
+color: #ffffff;
+font-family: mont;
+position: relative;
+top: -73px;
+}
+
+.title2 {
+text-align: center;
+font-size: 25px;
+color: #ffffff;
+font-family: dejavu;
+position: relative;
+top: -166px;
+}
+
+.title3 {
+text-align: center;
+font-size: 18px;
+color: #ffffff;
+font-family: dejavu;
+position: relative;
+top: -184px;
+text-shadow:
+    0 0 10px #6800ff,
+    0 0 20px #6800ff,
+    0 0 30px #6800ff;
+}
+
+.question {
+text-align: center;
+font-size: 25px;
+color: #ffffff;
+font-family: dejavu;
+position: relative;
+top: -177px;
+}
+
+.answer {
+text-align: center;
+font-size: 18px;
+color: #ffffff;
+font-family: roboto;
+position: relative;
+top: -201px;
+inline-size: 1000px;
+overflow-wrap: break-word;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bmac {
+position: relative;
+top: -212px;
+}
+
+.ctftitle {
+text-align: center;
+font-size: 25px;
+color: #ffffff;
+font-family: dejavu;
+position: relative;
+top: -200px;
+text-shadow:
+    0 0 10px #6800ff,
+    0 0 20px #6800ff,
+    0 0 30px #6800ff;
+}
+
+.ctftitle2 {
+text-align: center;
+font-size: 17px;
+color: #ffffff;
+font-family: dejavu;
+position: relative;
+top: -215px;
+text-shadow:
+    0 0 10px #6800ff,
+    0 0 20px #6800ff,
+    0 0 30px #6800ff;
+}
+
+#ttable {
+  position: relative;
+  bottom: 220px;
+  font-family: roboto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ttable td, #ttable th {
+  border: 1px solid #131313;
+  padding: 5px;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+#ttable th {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #121212;
+  color: white;
+}
