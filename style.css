@@ -132,3 +132,28 @@ text-shadow:
   background-color: #121212;
   color: white;
 }
+
+#ttable3 {
+  margin-top: -220px;
+  font-family: roboto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ttable3 td, #ttable3 th {
+  border: 1px solid #131313;
+  padding: 5px;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+#ttable3 th {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #121212;
+  color: white;
+}
